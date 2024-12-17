@@ -6321,7 +6321,8 @@ button.audience.connecting:before {
 .recent[data-v-b57c3cb3] {
     padding: 30px 15px;
     background: var(--backgroundSecondary);
-    border-top: 1px solid var(--inputSecondary)
+    border-top: 1px solid var(--inputSecondary);
+    display: none;
 }
 
 .recent .top-items[data-v-b57c3cb3] {
@@ -8649,7 +8650,8 @@ li.appearance svg .celestial[data-v-727b0bbe] {
 }
 
 .jbg.sign-in.has-recent[data-v-d720b942] {
-    background: var(--backgroundSecondary)
+    height: 100%;
+    overflow-y: auto
 }
 
 .form[data-v-d720b942] {
