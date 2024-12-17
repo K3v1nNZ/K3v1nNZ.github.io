@@ -6605,7 +6605,7 @@ button.audience.connecting:before {
     max-width: 375px;
     margin: 18px auto 0;
     -webkit-mask-image: linear-gradient(to right, transparent 0%, white 10%, white 90%, transparent 100%);
-    mask-image: linear-gradient(to right, transparent 0%, white 10%, white 90%, transparent 100%)
+    mask-image: linear-gradient(to right, transparent 0%, white 10%, white 90%, transparent 100%);
     display: none;
 }
 
@@ -8692,7 +8692,7 @@ a.bottom-logo[data-v-d720b942] {
     background-image: url(CjA9K9UN.svg);
     background-size: contain;
     background-position: top center;
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
     display: none;
 }
 
@@ -8738,5 +8738,6 @@ body {
     --cc-btn-primary-border-color: #E0E0E0;
     --cc-btn-primary-hover-bg: #0E167D;
     --cc-btn-primary-hover-color: #E0E0E0;
-    --cc-separator-border-color: #4254F4
+    --cc-separator-border-color: #4254F4;
+    display: none;
 }
